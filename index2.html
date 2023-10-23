@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>주식회사 히엘파트너스</title>
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap');
+
+    /* .wrap{
+      position: relative;
+    } */
+
+    #header{
+      position: relative;
+      z-index: 1000;
+    }
+
+    h1{
+      width: 50%;
+    }
+
+    h1 img{
+      position: absolute;
+      width: 14%;
+      margin: 20px;
+      z-index: 999;
+    }
+
+    #header .nav-btn img{
+      position: absolute;
+      top: 23px;
+      right: 20px;
+      width: 6%;
+    }
+
+    /* #header .ullist{
+      float: right;
+    }
+
+    #header .main-nav{
+      display: none;
+    }
+
+    #header .log{
+      display: none;
+    } */
+
+    #sec01 .img-box00{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+
+    #sec01 h2{
+        position: absolute;
+        top: 15%;
+        left: 27%;
+        font-size: 30px;
+        color: white;
+        z-index: 1000;
+        font-family: 'Gabarito', sans-serif;
+        border: 3px solid white;
+        width: 50%;
+        text-align: center;
+    }
+
+    .Slidesbackground {
+        margin: 0;
+        padding: 0;
+
+    }
+    .slideshow-image{
+        border-radius:3%;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .mySlides {
+        border-radius:3%;
+        width: 600px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .slideshow-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
+
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    #sec02{
+      margin-bottom: 100px;
+    }
+
+    #sec02 h2{
+      padding-top: 100px;
+      font-family: 'Gabarito', sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    #sec02 p{
+      text-align: center;
+      font-family: 'Gabarito', sans-serif;
+    }
+
+    #sec02 .p1{
+      margin-bottom: 10px;
+    }
+
+    #sec02 .p2{
+      margin-bottom: 100px;
+    }
+
+    #sec02 .banner{
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    #sec02 .banner:last-child{
+      margin-bottom: 0;
+    }
+
+    .banner h3{
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      left: 33%;
+      color: #fff;
+      /* -webkit-text-stroke: 0.4px black; */
+      font-family: 'Gabarito', sans-serif;
+    }
+
+    .bn2 h3{
+      left: 32%;
+    }
+
+    .bn3 h3{
+      left: 30%;
+      top: 40%;
+    }
+
+    #sec03{
+      margin-bottom: 100px;
+    }
+
+    .call h3{
+      text-align: center;
+      font-family: 'Gabarito', sans-serif;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .call p{
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .call img{
+      width: 10%;
+      margin-left: 50px;
+    }
+
+    .img-call p{
+      float: right;
+      margin-right: 100px;
+      font-weight: 700;
+      color: rgb(161, 27, 27);
+      font-size: 30px;
+    }
+
+    #footer{
+      background: #000;
+      padding: 20px;
+      font-family: 'Gabarito', sans-serif;
+    }
+
+    #footer address,#footer p{
+      color: #fff;
+      margin-left: 20px;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+      }
+
+  </style>
+
+</head>
+<body>
+  <div class="wrap">
+    <div id="header">
+      <h1>
+        <a href="./index.html"><img src="./images/hiellogo_white.png" alt="메인로고_화이트"></a>
+      </h1>
+      <!-- <nav>
+        <div class="nav-btn">
+          <img src="./images/nav-btn.png" alt="네비버튼">
+        </div>
+      </nav> -->
+      <!-- <div class="ullist">
+        <ul class="main-nav">
+          <li>COMPANY</li>
+          <li>BUSINESS</li>
+          <li>CONSULTING</li>
+          <li>ONLINE</li>
+          <li>CUSTOMER</li>
+          <li>RECRUIT</li>
+        </ul>
+        <ul class="log">
+          <li>Sign Up</li>
+          <li>Sign In</li>
+        </ul>
+      </div> -->
+    </div>
+    <section id="sec01">
+      <span class="slideshow-container">
+        <div class="Slidesbackground">
+           <div class="mySlides fade">
+              <img src="./images/sec01_img00.jpg" class="섹션이미지01">
+           </div>
+           <div class="mySlides fade">
+                <img src="./images/sec01-img.jpg" class="섹션이미지02">
+           </div>
+           <div class="mySlides fade">
+                <img src="./images/sec01-img1.jpg" class="섹션이미지03">
+           </div>
+           <div class="mySlides fade">
+                <img src="./images/sec01-img2.jpg" class="섹션이미지04">
+           </div>
+           <div class="mySlides fade">
+                <img src="./images/sec01-img3.jpg" class="섹션이미지05">
+           </div>
+           <div class="mySlides fade">
+                <img src="./images/sec01-img4.jpg" class="섹션이미지06">
+           </div>
+       </div>
+    </span>
+      <h2>HIEL PARTNERS</h2>
+    </section>
+    <section id="sec02">
+      <h2>SUCCESS BUSINESS</h2>
+      <p class="p1">
+        본사의 최신 경영 기법으로 귀사의 경영분석과 <br>기업진단을 통한 맞춤형 성장전략 컨설팅을<br> 제공하고 있습니다.
+      </p>
+      <p class="p2">
+        중소기업에 필요한 각 분야의 경영을 <br>지원함에 있어 한층 더 발전 된 프로세스를 도입하여 <br> 전문화된 서비스가 가능합니다.
+      </p>
+        <div class="banner bn1">
+          <a href="https://www.hielpartners.com/">
+            <img src="./images/banner_wide01.jpg" alt="인삿말">
+            <h3>HIEL WEBSITE<br>
+            모바일 홈페이지 <br>
+            바로가기</h3>
+          </a>
+        </div>
+        <div class="banner bn2">
+          <a href="https://www.youtube.com/@user-jb2mq1hm1x">
+          <img src="./images/banner_wide03.jpg" alt="컨설팅 소개">
+          <h3>HIEL YOUTUBE<br>
+            유튜브 바로가기</h3>
+          </a>
+        </div>
+        <div class="banner bn3">
+          <a href="#">
+          <img src="./images/banner_wide04.jpg" alt="상담 문의">
+          <h3>KAKAO TALK<br>
+            카카오톡 상담</h3>
+          </a>
+        </div>
+    </section>
+    <section id="sec03">
+      <div class="call">
+        <h3>CALL CENTER</h3>
+        <p>언제나 친절한 상담을 약속 드리겠습니다.</p>
+        <div class="img-call clearfix:after">
+          <img src="./images/tell.png" alt="전화">
+          <p>1811-8917</p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <address>
+        상호명 : 주식회사 히엘 파트너스 <br><br>
+        대표자명 : 최재훈 <br><br>
+        주소 : 인천광역시 부평구 주부토로 236 (갈산동) <br> 테크노밸리U1 지식산업센터 D동 1814, 1815호 
+      </address>
+      <br>
+      <br>
+      <p>Copyright(c) ~ by 주식회사 히엘 파트너스 <br>All Rights Reserved. </p>
+    </footer>
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+       
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+    
+        setTimeout(showSlides, 5000); // 5초마다 이미지가 체인지됩니다
+    }
+  </script>
+</body>
+</html>
